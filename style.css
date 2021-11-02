@@ -8,6 +8,10 @@
     transition: 200ms;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     display: block;
 }
