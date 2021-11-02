@@ -1,0 +1,22 @@
+{
+    "name": "WebStation",
+    "short_name": "WebStation",
+    "start_url": "http://localhost:8000/",
+    "display": "standalone",
+    "background_color": "#0d6efd",
+    "theme_color": "#0d6efd",
+    "categories": [
+        "app",
+        "multipurpose",
+        "blog",
+        "pwa"
+    ],
+    "orientation": "portrait",
+    "description": "WebStation | Fastest, Greenest, Most Cost-effective Blockchain 100% Ethereum Compatible",
+    "icons": [{
+        "src": "img/icons/gochain-logo-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256",
+        "purpose": "any maskable"
+    }]
+}
