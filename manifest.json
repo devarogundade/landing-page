@@ -12,9 +12,9 @@
         "pwa"
     ],
     "orientation": "portrait",
-    "description": "WebStation | Fastest, Greenest, Most Cost-effective Blockchain 100% Ethereum Compatible",
+    "description": "Website and Mobile Application Agency and Freelancing Company in Nigeria.",
     "icons": [{
-        "src": "img/icons/gochain-logo-256x256.png",
+        "src": "asset/favicon.png",
         "type": "image/png",
         "sizes": "256x256",
         "purpose": "any maskable"
