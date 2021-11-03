@@ -510,6 +510,7 @@ header .container {
     align-items: center;
     color: #fff;
     row-gap: 40px;
+    overflow: hidden;
 }
 
 .important h6 {
