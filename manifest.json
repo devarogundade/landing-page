@@ -1,7 +1,7 @@
 {
     "name": "WebStation",
     "short_name": "WebStation",
-    "start_url": "http://localhost:8000/",
+    "start_url": "https://webstation.com.ng",
     "display": "standalone",
     "background_color": "#0d6efd",
     "theme_color": "#0d6efd",

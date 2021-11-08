@@ -142,7 +142,7 @@ header .container {
 .menu-item .drop-down {
     position: absolute;
     background-color: #070a57;
-    top: 80px;
+    top: 75px;
     left: 0;
     min-width: 280px;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -170,6 +170,7 @@ header .container {
     font-size: 15px;
     font-weight: 500;
     user-select: none;
+    cursor: pointer;
 }
 
 .drop-down li:hover {
@@ -178,6 +179,33 @@ header .container {
 
 
 /* call action */
+
+.get-a-quote {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+}
+
+.get-a-quote div {
+    background-color: #0d6efd;
+    padding: 15px 60px;
+    border-radius: 16px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    transition: 400ms;
+}
+
+.get-a-quote div:hover {
+    transform: scale(0.95, 0.95);
+}
 
 .action {
     width: 1400px;
@@ -223,7 +251,7 @@ header .container {
 }
 
 .wavy-level {
-    margin-top: -270px;
+    margin-top: -280px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -322,11 +350,13 @@ header .container {
     margin-top: 50px;
     width: 80%;
     align-items: center;
+    justify-content: center;
 }
 
 .logos img {
     min-width: 70px;
     width: 50%;
+    justify-self: center;
 }
 
 
